@@ -2,6 +2,7 @@ const assert = require('assert');
 const formatDate = require('./index');
 
 describe('formatDate', () => {
+    //describe.only('seconds', () => {
     describe('seconds', () => {
         it('should return seconds', () => {
             const actual = formatDate(23);
@@ -47,6 +48,7 @@ describe('formatDate', () => {
     });
 
     describe('hours', () => {
+    //describe.only('hours', () => {
         it('should work for one digit hours, minutes and seconds', () => {
             const actual = formatDate(3723);
 
