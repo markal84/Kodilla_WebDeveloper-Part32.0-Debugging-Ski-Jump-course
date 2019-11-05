@@ -1,0 +1,19 @@
+{
+  "name": "format-date",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js -b",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^6.2.2"
+  },
+  "devDependencies": {
+    "onchange": "^6.1.0"
+  }
+}
